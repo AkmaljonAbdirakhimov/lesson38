@@ -169,14 +169,15 @@ class _FormsPageState extends State<FormsPage> {
                     setState(() {});
                   },
                   decoration: InputDecoration(
-                      border: const OutlineInputBorder(),
-                      suffixIcon: const Icon(Icons.email),
-                      // focusedBorder: OutlineInputBorder(
-                      //   borderSide: BorderSide(color: Colors.red),
-                      // ),
-                      hintText: "Email pochta",
-                      labelText: "Email pochta",
-                      errorText: emailError),
+                    border: const OutlineInputBorder(),
+                    suffixIcon: const Icon(Icons.email),
+                    // focusedBorder: OutlineInputBorder(
+                    //   borderSide: BorderSide(color: Colors.red),
+                    // ),
+                    hintText: "Email pochta",
+                    labelText: "Email pochta",
+                    errorText: emailError,
+                  ),
                 ),
                 const SizedBox(height: 10),
                 Text(email),
